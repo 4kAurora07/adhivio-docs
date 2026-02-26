@@ -1,13 +1,12 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   return (
     <footer className="bg-footer py-12">
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-md bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xs">A</span>
-            </div>
-            <span className="text-lg font-bold text-footer-foreground">Adhivio</span>
+            <img src={logo} alt="Adhivio" className="h-8 brightness-0 invert" />
           </div>
 
           <nav className="flex items-center gap-6">
