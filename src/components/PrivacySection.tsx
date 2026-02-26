@@ -12,7 +12,7 @@ const PrivacySection = () => {
     <section id="privacy" className="py-20 lg:py-28 bg-background">
       <div className="container max-w-2xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-foreground">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-primary">
             Private by default.
           </h2>
         </div>

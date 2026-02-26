@@ -12,7 +12,7 @@ const InstallSection = () => {
     <section id="install" className="py-20 lg:py-28 bg-surface">
       <div className="container max-w-3xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-foreground">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-primary">
             Install in seconds.
           </h2>
         </div>

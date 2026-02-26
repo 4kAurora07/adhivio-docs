@@ -38,7 +38,7 @@ const FeaturesSection = () => {
     <section id="features" className="py-20 lg:py-28 bg-background">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-foreground">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-primary">
             Everything you need. Nothing you don't.
           </h2>
         </div>

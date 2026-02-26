@@ -6,7 +6,7 @@ const ProductPreview = () => {
     <section className="py-20 lg:py-28 bg-surface">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-foreground">
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-primary">
             See Adhivio in action.
           </h2>
         </div>

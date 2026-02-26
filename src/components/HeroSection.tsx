@@ -12,7 +12,7 @@ const HeroSection = () => {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.1]">
+              <h1 className="text-5xl lg:text-6xl font-extrabold text-primary leading-[1.1]">
                 Adhivio
               </h1>
               <p className="text-2xl lg:text-3xl font-semibold text-foreground/80">
@@ -33,7 +33,7 @@ const HeroSection = () => {
               </a>
               <a
                 href="#features"
-                className="inline-flex items-center justify-center h-12 px-8 rounded-lg border-2 border-primary text-primary text-sm font-semibold hover:bg-primary/5 transition-colors"
+                className="inline-flex items-center justify-center h-12 px-8 rounded-lg border-2 border-accent text-accent bg-background text-sm font-semibold hover:bg-accent/5 transition-colors"
               >
                 View Features
               </a>
