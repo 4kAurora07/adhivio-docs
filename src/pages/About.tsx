@@ -1,5 +1,6 @@
-import { Github, Linkedin, Mail, ArrowLeft } from "lucide-react";
+import { Github, Mail, MessageCircle, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const skills = [
   "React", "TypeScript", "Tailwind CSS", "Android", "Kotlin",
@@ -12,8 +13,8 @@ const About = () => {
       {/* Header */}
       <header className="sticky top-0 z-50 h-[72px] bg-background border-b border-border">
         <div className="container h-full flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 text-xl font-bold text-primary">
-            Adhivio
+          <Link to="/" className="flex items-center gap-2">
+            <img src={logo} alt="Adhivio" className="h-9" />
           </Link>
           <Link
             to="/"
@@ -120,13 +121,13 @@ const About = () => {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://wa.me/1234567890"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 h-12 px-8 rounded-lg border-2 border-accent text-accent bg-background text-sm font-semibold hover:bg-accent/5 transition-colors"
               >
-                <Linkedin size={18} />
-                LinkedIn
+                <MessageCircle size={18} />
+                WhatsApp
               </a>
               <a
                 href="mailto:hello@example.com"
