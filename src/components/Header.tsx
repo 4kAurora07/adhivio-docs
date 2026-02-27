@@ -16,6 +16,7 @@ const Header = () => {
           <a href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Features</a>
           <a href="#install" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Install</a>
           <a href="#privacy" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Privacy</a>
+          <a href="/about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
           <a href="#" className="inline-flex items-center justify-center h-10 px-6 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity">
             Download APK
           </a>
@@ -34,6 +35,7 @@ const Header = () => {
           <a href="#features" className="block text-sm font-medium text-muted-foreground" onClick={() => setMobileOpen(false)}>Features</a>
           <a href="#install" className="block text-sm font-medium text-muted-foreground" onClick={() => setMobileOpen(false)}>Install</a>
           <a href="#privacy" className="block text-sm font-medium text-muted-foreground" onClick={() => setMobileOpen(false)}>Privacy</a>
+          <a href="/about" className="block text-sm font-medium text-muted-foreground" onClick={() => setMobileOpen(false)}>About</a>
           <a href="#" className="inline-flex items-center justify-center h-10 px-6 rounded-lg bg-primary text-primary-foreground text-sm font-semibold">
             Download APK
           </a>

@@ -9,6 +9,7 @@ const Footer = () => {
             <a href="#features" className="text-sm text-footer-foreground/60 hover:text-footer-foreground transition-colors">Features</a>
             <a href="#install" className="text-sm text-footer-foreground/60 hover:text-footer-foreground transition-colors">Install</a>
             <a href="#privacy" className="text-sm text-footer-foreground/60 hover:text-footer-foreground transition-colors">Privacy</a>
+            <a href="/about" className="text-sm text-footer-foreground/60 hover:text-footer-foreground transition-colors">About</a>
           </nav>
 
           <p className="text-sm text-footer-foreground/40">
