@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+###### Adhivio Docs
 
-## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+A modern documentation site template built with Vite, TypeScript, React, Tailwind CSS, and shadcn-ui, designed to be fully customizable for your projects.
 
-Follow these steps:
+## 🚀 Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+⚡ Instant hot-reload with Vite
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🎨 Fully customizable UI with Tailwind CSS
 
-# Step 3: Install the necessary dependencies.
-npm i
+🧩 Reusable UI components with shadcn-ui
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+🔒 Strongly typed with TypeScript
+
+🌍 Ready for deployment on any static hosting platform
+
+## 📂 Project Structure 
+
+adhivio-docs/
+├─ public/             # Static assets
+├─ src/                # React components & pages
+├─ index.html          # Main HTML template
+├─ package.json        # Dependencies & scripts
+├─ vite.config.ts      # Vite configuration
+├─ tailwind.config.ts  # Tailwind CSS config
+├─ tsconfig.json       # TypeScript config
+└─ README.md
+
+## ⚙️ Getting Started
+Prerequisites
+
+Node.js (v18 or higher recommended)
+
+npm or yarn
+
+Installation
+# Clone the repository
+git clone https://github.com/4kAurora07/adhivio-docs.git
+
+# Navigate into the project
+cd adhivio-docs
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Now open:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+http://localhost:5173
+🛠️ Available Scripts
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
 
-**Use GitHub Codespaces**
+## 🌐 Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+After building:
 
-## What technologies are used for this project?
+npm run build
 
-This project is built with:
+Deploy the generated dist/ folder to:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vercel
 
-## How can I deploy this project?
+Netlify
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+GitHub Pages
 
-## Can I connect a custom domain to my Lovable project?
+Any static hosting service
 
-Yes, you can!
+## 🧰 Tech Stack
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Vite
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+React
+
+TypeScript
+
+Tailwind CSS
+
+shadcn-ui
+
+## 📄 License
+
+This project is licensed under the MIT License.
