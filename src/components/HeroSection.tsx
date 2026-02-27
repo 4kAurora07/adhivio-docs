@@ -26,7 +26,7 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="#"
+                href="https://github.com/4kAurora07/adhivio-docs/releases/download/v1.0/adhivio.apk"
                 className="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
               >
                 Download APK
