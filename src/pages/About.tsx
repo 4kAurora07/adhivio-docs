@@ -1,10 +1,19 @@
 import { Github, Mail, MessageCircle, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "@/assets/logo.png";
+import logo from "../assets/logo.png";
+import myPic from "../assets/my-pic.jpg"; // your picture
 
 const skills = [
   "React", "TypeScript", "Tailwind CSS", "Android", "Kotlin",
   "Node.js", "Python", "Firebase", "Git", "Figma",
+];
+
+const gratitudeList = [
+  "Family and friends for endless support",
+  "Open-source projects that inspire me",
+  "The opportunity to build Adhivio",
+  "Learning something new every day",
+  "Minimal design and clean code philosophy",
 ];
 
 const About = () => {
@@ -27,42 +36,44 @@ const About = () => {
       </header>
 
       <main>
-        {/* Hero */}
+        {/* Hero Section */}
         <section className="bg-surface py-20 lg:py-28">
           <div className="container">
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-5xl font-extrabold text-primary">
-                About the Creator
+                About Me
               </h1>
               <p className="mt-4 text-lg text-muted-foreground max-w-lg mx-auto">
-                The person behind Adhivio — building tools that respect your time and privacy.
+                Hi, I’m <strong>Alwin Anil Zachariah</strong> — creator of Adhivio. I build minimal, privacy-first tools that simplify everyday tasks.
               </p>
             </div>
 
             {/* Profile */}
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-5xl mx-auto">
               <div className="flex justify-center lg:justify-start">
-                <div className="w-[280px] h-[280px] rounded-2xl bg-muted border border-border flex items-center justify-center shadow-sm">
-                  <span className="text-6xl text-muted-foreground/40 select-none">👤</span>
-                </div>
+                <img
+                  src={myPic}
+                  alt="Alwin"
+                  className="w-[280px] h-[280px] rounded-2xl object-cover border border-border shadow-sm"
+                />
               </div>
 
               <div className="space-y-4">
                 <h2 className="text-3xl font-extrabold text-primary">
-                  Your Name
+                  Alwin Anil Zachariah
                 </h2>
                 <p className="text-lg font-medium text-accent">
                   Developer · Designer · Builder
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Passionate about creating lightweight, privacy-first tools that solve everyday problems without unnecessary complexity. Adhivio was born from a simple frustration — every reminder app was bloated with features nobody asked for.
+                  I’m passionate about creating lightweight, privacy-first apps that solve real problems without unnecessary complexity. Adhivio was born from my frustration with bloated productivity apps — I wanted something simple, reliable, and distraction-free.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Story */}
+        {/* My Story */}
         <section className="py-20 lg:py-28 bg-background">
           <div className="container max-w-3xl space-y-8">
             <h2 className="text-3xl font-extrabold text-primary">
@@ -76,7 +87,7 @@ const About = () => {
                 Adhivio is my answer to that. It's a reminder app that does exactly one thing well: it reminds you. No accounts, no cloud sync you didn't ask for, no data leaving your device. Just simple, reliable notifications when you need them.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring open-source projects, reading about minimal design systems, or tinkering with new Android APIs. I believe the best software is the kind you barely notice — it just works.
+                Outside coding, I explore open-source projects, dive into minimal design systems, and experiment with Android APIs. I believe the best software is the kind you barely notice — it just works.
               </p>
             </div>
           </div>
@@ -101,8 +112,28 @@ const About = () => {
           </div>
         </section>
 
-        {/* Contact */}
+        {/* Gratitude List */}
         <section className="py-20 lg:py-28 bg-background">
+          <div className="container max-w-3xl text-center space-y-6">
+            <h2 className="text-3xl font-extrabold text-primary mb-4">
+              🧡 Gratitude List
+            </h2>
+            <p className="text-muted-foreground mb-10 max-w-md mx-auto">
+              Things I’m grateful for as I build and learn every day:
+            </p>
+            <ul className="space-y-2 text-left max-w-md mx-auto text-muted-foreground animate-fadeIn">
+              {gratitudeList.map((item, idx) => (
+                <li key={idx} className="flex items-center gap-2">
+                  <span className="text-accent">•</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        {/* Contact */}
+        <section className="py-20 lg:py-28 bg-surface">
           <div className="container max-w-3xl text-center">
             <h2 className="text-3xl font-extrabold text-primary mb-4">
               Get in Touch
@@ -112,7 +143,7 @@ const About = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/4kAurora07"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 h-12 px-8 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
@@ -121,7 +152,7 @@ const About = () => {
                 GitHub
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/919778442517"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 h-12 px-8 rounded-lg border-2 border-accent text-accent bg-background text-sm font-semibold hover:bg-accent/5 transition-colors"
@@ -130,7 +161,7 @@ const About = () => {
                 WhatsApp
               </a>
               <a
-                href="mailto:hello@example.com"
+                href="mailto:alwinanil4@gmail.com"
                 className="inline-flex items-center gap-2 h-12 px-8 rounded-lg border-2 border-accent text-accent bg-background text-sm font-semibold hover:bg-accent/5 transition-colors"
               >
                 <Mail size={18} />

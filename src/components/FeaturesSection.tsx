@@ -14,7 +14,7 @@ const features = [
   {
     icon: Zap,
     title: "Lightweight & Fast",
-    description: "Under 5MB install. No bloat, no lag, just speed.",
+    description: "Under 6MB install. No bloat, no lag, just speed.",
   },
   {
     icon: Shield,
